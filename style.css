@@ -1,0 +1,53 @@
+body {
+    background-color: bisque;
+}
+h1 {
+    background-color: black;
+    color:greenyellow;
+    text-align: center;
+    text-decoration:  underline;
+    padding: 3% 0;
+}
+#imagedex {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 550px;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url(/image/index.jpg);
+    margin: auto;
+}
+.box {
+    height: 268px;
+    width: 275px;
+}
+.box1 {
+    overflow: hidden;
+    background-size: cover;
+    margin-top: 82px;
+}
+.box2{
+    margin-top: 95px;
+    margin-left: 29px;
+}
+#rech {
+    width: 550px;
+    margin: auto;
+    height: 200px;
+    text-align: center;
+}
+.lab {
+    display: block;
+}
+#pokeName {
+    margin-bottom: 10px;
+}
+.inputRech {
+    height: 30px;
+    width: 215px;
+    margin-top: 10px;
+}
+.name {
+    margin-left: 48px;
+}
